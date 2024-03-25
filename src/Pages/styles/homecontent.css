@@ -1,0 +1,21 @@
+.home__cont-main{
+display: flex;
+margin-top:18rem;
+margin-left: 9rem;
+}
+.home__cont-text p {
+    display: flex;
+    top:14em;
+    margin-left:9rem;
+    color: #f8eeee;
+    text-align: justify;
+}
+.home__input {
+color: aliceblue;
+font-family: inherit;
+font-weight: 600;
+font-size: 17px;
+border-radius: 0.8em;
+cursor: pointer;
+border: none;
+}
