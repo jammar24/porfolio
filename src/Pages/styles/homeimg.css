@@ -1,0 +1,8 @@
+.ty__img {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-left: 65rem;
+    margin-top: -33rem;
+    z-index: 0;
+}
