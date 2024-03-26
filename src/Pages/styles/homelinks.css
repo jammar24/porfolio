@@ -1,0 +1,21 @@
+.c {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: flex-start; /* Alinea el contenido al principio (izquierda) */
+    height: 100vh; /* Ajusta la altura al 100% del viewport */
+    width: 50%; /* Establece el ancho al 50% del viewport */
+    padding-left: 20px; /* Añade un espacio a la izquierda del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    color: aliceblue;
+}
+
+.c ul {
+    list-style: none;
+    padding: 0;
+}
+
+.c ul li {
+    margin-bottom: 20px; /* Añade un espacio entre los íconos */
+    /* Elimina margin-left o establece a 0 para mantener los elementos uno debajo del otro */
+}
