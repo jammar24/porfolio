@@ -1,12 +1,11 @@
 .home__cont-main{
 display: flex;
-margin-top:18rem;
+top:1rem;
 margin-left: 9rem;
 }
 .home__cont-text p {
-    display: flex;
-    top:14em;
-    margin-left:9rem;
+    margin-top: 5em;
+    margin-left: 8rem;
     color: #f8eeee;
     text-align: justify;
 }
@@ -19,3 +18,11 @@ border-radius: 0.8em;
 cursor: pointer;
 border: none;
 }
+.ty__img {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-left: 65rem;
+    margin-top: -30rem;
+}
+

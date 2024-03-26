@@ -1,5 +1,6 @@
 import React from 'react';
-import './styles/home.css';
+import '../src/Pages/styles/home.css';
+import HomeSvg from './Pages/HomeSvg';
 
 const Home = () => {
   return (
@@ -26,7 +27,9 @@ const Home = () => {
                 <p className='home__btn'> ¡Contratame!</p>
             </button>
       </div>
+      <HomeSvg/>
     </div>
+
   );
 };
 
