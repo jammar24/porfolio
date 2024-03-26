@@ -7,6 +7,10 @@
 .home__logo {
     margin-right: 45rem;
 }
+.home__logo-img{
+    width: 75px; /* Ancho deseado */
+    height: auto
+}
 
 .home__il{
     display: flex;

@@ -3,19 +3,20 @@
     flex-direction: column; /* Alinea los elementos verticalmente */
     justify-content: center; /* Centra verticalmente el contenido */
     align-items: flex-start; /* Alinea el contenido al principio (izquierda) */
-    height: 100vh; /* Ajusta la altura al 100% del viewport */
-    width: 50%; /* Establece el ancho al 50% del viewport */
-    padding-left: 20px; /* Añade un espacio a la izquierda del contenedor */
+    height: auto; /* Establece la altura automáticamente según el contenido */
     box-sizing: border-box; /* Incluye el padding en el ancho total */
     color: aliceblue;
+    padding: 0 2rem; /* Agrega un relleno al contenedor */
 }
 
 .c ul {
     list-style: none;
-    padding: 0;
+    margin: 0; /* Elimina el margen de la lista */
+    padding: 0; /* Elimina el relleno de la lista */
 }
 
 .c ul li {
-    margin-bottom: 20px; /* Añade un espacio entre los íconos */
+    margin-bottom: 1rem; /* Reduzca el margen inferior */
+    margin-top: 1rem; /* Reduzca el margen superior */ /* Añade un espacio entre los íconos */
     /* Elimina margin-left o establece a 0 para mantener los elementos uno debajo del otro */
 }

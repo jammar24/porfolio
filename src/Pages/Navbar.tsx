@@ -1,12 +1,13 @@
 import React from 'react'
 import '../Pages/styles/navbar.css'
+import lg from '../assets/lg.png'
 
 const Navbar = () => {
   return (
     <div className='home'>
         <div className='home__logo'>
 
-<img className='home__logo-img' src="" alt="logo" />
+<img className='home__logo-img' src={lg} alt="logo" />
 
 </div>
 
